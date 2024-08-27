@@ -1,0 +1,285 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo de Navbar */
+.navbar {
+    background-color: #efa815;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    box-shadow: 1px 1px 100px rgb(66, 66, 66);
+}
+.active {
+    box-shadow: 1px 1px 100px rgb(66, 66, 66);
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+/* estilo de contenido principal */
+.main-content {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5%;
+}
+
+/* estilo de header */
+header {
+    background-color: #0d3c54;
+    color:#ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* estilo de footer */
+footer {
+    background-color: #333;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo de enlaces */
+footer a {
+    color: #f2f2f2;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #ddd;
+}
+
+/*Estilo de container de cards*/
+.card-container{
+    display: flex;  
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+/*Estilo de caja1*/
+.card1{
+    border: 5px solid #efa815;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #0d3c54;
+    font-size: 20px;
+    color: white;
+    height: 50%;
+    width: 20%;
+    padding: 30px;
+}
+/*imagen de caja1*/
+.card1 img{
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+/*Estilo de caja2*/
+.card2{
+    border: 5px solid #efa815;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #0d3c54;
+    font-size: 20px;
+    color: white;
+    height: 50%;
+    width: 20%;
+    padding: 20px;
+}
+/*imagen de caja2*/
+.card2 img{
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+/*Estilo de caja3*/
+.card3{
+    border: 5px solid #efa815;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #0d3c54;
+    font-size: 20px;
+    color: white;
+    height: 50%;
+    width: 20%;
+    padding: 20px;
+}
+/*imagen de caja3*/
+.card3 img{
+    display: block;
+    margin: 20px auto 0 auto;
+    
+}
+
+/*Estilo de caja4*/
+.card4{
+    border: 5px solid #efa815;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #0d3c54;
+    font-size: 20px;
+    color: white;
+    height: 50%;
+    width: 20%;
+    padding: 20px;
+}
+/*imagen de caja4*/
+.card4 img{
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+}
+
+/*Estilo de container de Formulario*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+
+}
+/*Estilo de Formulario*/
+.form{
+    background-color: #0d3c54;
+    color:#ddd;
+    font-size: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 450px;
+    text-align: left;
+    border: 5px solid #efa815;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+
+/*Estilo de inputs*/
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 9px;
+    border:none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+/*Estilo de buttons*/
+.form button{
+    background-color: #efa815;
+    color: white;
+    border-radius: 9px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 10px;
+    width: 50%;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+.form button:hover{
+    background-color: #c28711;
+}
+/*Estilo de contenido(contacto.html) */
+.content{
+    background-color: #0d3c54;
+    color:#ddd;
+    border: 5px solid #efa815;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+/*Imagen del contenido(contacto.html)*/
+.content img{
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+/*Texto de Section1*/
+.homeText1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    background-color: #0d3c54;
+    color: white;   
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+
+}
+/*Imagen         de Section1*/
+.homeText1 img{
+    position: absolute;
+    left: 65%;
+    top: 25%;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+/*Estilo de Section2*/
+.homeText2 {
+    text-align: left;
+    background-color: #0d3c54;
+    color: white;
+    font-size: 30px;
+    width: 50%;
+    height: 50%;
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+/*Imagen de Section2*/
+.homeText2 img{
+    position: absolute;
+    left: 65%;
+    top: 100%;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+/*Estilo de Section3*/
+.homeText3 {
+    text-align: left;
+    background-color: #0d3c54;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-size: 30px;
+    width: 50%;
+    height: 50%;
+    padding: 50px;
+}
+/*Imagen de Section3*/
+.homeText3 img{
+    position: absolute;
+    left: 65%;
+    top: 185%;
+    display: block;
+    margin: 20px auto 0 auto;
+}

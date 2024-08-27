@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>2BEBOT</title>
+</head>
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../views/contacto.html">Contacto</a></li>
+            <li><a href="../views/productos.html">Servicios</a></li>
+            <li><a href="../views/presupuesto.html" class="active">Presupuesto</a></li>
+        </ul>
+    </div>
+
+    <!--Header-->
+    <header>
+        <h1>2BEBOT</h1>
+    </header>
+
+    <!--Contenido Pricipal-->
+    <div class="main-content">
+        <div class="container">
+            
+            <!--Formulario-->
+            <div class="form">
+                <form name="formulario" method="post">
+                    Nombre: <input type="text" id="nombre" name="nombre" class="input" required 
+                    pattern="[A-Za-zÀ-ú\s]+" title="El nombre debe contener sólo letras y espacios.">
+                    <br><br>
+
+                    Email: <input type="email" id="email" name="email" class="input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                    title="Por favor ingrese un correo electrónico válido">
+                    <br><br>
+
+                    Telefono: <input type="tel" id="telefono" name="telefono" class="input" required pattern="(\+34|0034)?\s?\d{3}\s?\d{3}\s?\d{3}" 
+                    title="El teléfono debe tener 9 dígitos, con o sin el código de país">
+                    <br><br>
+
+                    Solicite más información<br>
+                    <textarea cols="30" rows="6" name="informacion" placeholder="Escriba aqui" class="input"></textarea><br><br>
+
+                    Politica de Privacidad<input type="checkbox" class="checkbox" required><br><br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <p>Síguenos en las redes sociales:</p>
+
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="../images/facebook.png" alt="Logotipo de Facebook" width="20" height="20">
+            Facebook
+        </a>
+
+        
+        <a href="https://www.twitter.com" target="_blank">
+            <img src="../images/twitter.png" alt="Logotipo de Twitter" width="20" height="20">
+            Twitter
+            
+        </a>
+
+        
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="../images/instagram.png" alt="Logotipo de Instagram" width="20" height="20">
+            Instagram
+        </a>
+
+        <a href="https://www.linkedin.com" target="_blank">
+            <img src="../images/linkedin.png" alt="Logotipo de LinkedIn" width="20" height="20">
+            LinkedIn
+        </a>
+        <p>&copy; 2024 2BEBOT. Reservados todos los derechos.</p>
+    </footer>
+</body>
+</html>
